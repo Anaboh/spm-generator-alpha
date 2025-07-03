@@ -11,7 +11,7 @@ function App() {
   const [references, setReferences] = useState([]);
   const [models, setModels] = useState([]);
   const [selectedModel, setSelectedModel] = useState('deepseek');
-  const [backendUrl, setBackendUrl] = useState('https://spm-frontend-xzbb.onrender.com/');
+  const [backendUrl, setBackendUrl] = useState('https://spm-frontend-xzbb.onrender.com');
 
   useEffect(() => {
     fetch(`${backendUrl}/models`)
