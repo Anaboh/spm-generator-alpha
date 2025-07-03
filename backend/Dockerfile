@@ -1,7 +1,5 @@
 FROM python:3.9-slim
 
-FROM python:3.9  # Ensure you're using an official Python base image
-
 WORKDIR /app
 
 # Install system dependencies
