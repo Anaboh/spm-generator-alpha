@@ -3,4 +3,3 @@ uvicorn
 PyPDF2
 requests
 python-multipart
-sqlite3
